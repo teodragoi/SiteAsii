@@ -1,0 +1,26 @@
+.header-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edeff1;
+    color: white;
+    font-weight: bold;
+    
+  }
+
+  .header-bar img {
+    width: 90px;
+    margin: 0 auto;
+  }
+
+  .header-bar a{
+      color: black;
+      margin: 0 auto;
+      text-decoration: none;
+  }
+  
