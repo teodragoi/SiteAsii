@@ -1,0 +1,30 @@
+.imagine {
+    width: 100%;
+    width:100%;
+    background-image:url('/assets/img/asii.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.message {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 1px;
+}
+
+.denumire {
+    font-size: 10px;
+    color: white;
+}
+
+button {
+    margin-bottom: 10px;
+}
