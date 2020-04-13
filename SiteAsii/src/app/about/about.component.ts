@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'asii-about',
+  selector: 'app-asii-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss']
 })
