@@ -8,6 +8,7 @@ import { MatCardModule } from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MemberTileComponent } from './member-tile/member-tile.component';
 import { MembriiComponent } from './membrii/membrii.component';
 
 @NgModule({
@@ -16,7 +17,8 @@ import { MembriiComponent } from './membrii/membrii.component';
     AboutComponent,
     HomeComponent,
     HeaderComponent,
-    MembriiComponent
+    MembriiComponent,
+    MemberTileComponent
   ],
   imports: [
     BrowserModule,
