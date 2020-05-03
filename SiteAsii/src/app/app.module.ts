@@ -10,6 +10,10 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MemberTileComponent } from './member-tile/member-tile.component';
 import { MembriiComponent } from './membrii/membrii.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { DepartmentsComponent } from './departments/departments.component';
+import { MyPopupComponent } from './my-popup/my-popup.component';
+import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -18,14 +22,17 @@ import { MembriiComponent } from './membrii/membrii.component';
     HomeComponent,
     HeaderComponent,
     MembriiComponent,
-    MemberTileComponent
+    MemberTileComponent,
+    DepartmentsComponent,
+    MyPopupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
