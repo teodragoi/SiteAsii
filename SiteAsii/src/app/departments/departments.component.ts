@@ -19,9 +19,9 @@ export class DepartmentsComponent implements OnInit {
     const dialogRef = this.dialog.open(MyPopupComponent, {
     });
 
-    dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-    });
+    // dialogRef.afterClosed().subscribe(result => {
+    //   console.log('The dialog was closed');
+    // });
   }
 
 }
