@@ -14,6 +14,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { DepartmentsComponent } from './departments/departments.component';
 import { MyPopupComponent } from './my-popup/my-popup.component';
 import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
     MembriiComponent,
     MemberTileComponent,
     DepartmentsComponent,
-    MyPopupComponent
+    MyPopupComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
