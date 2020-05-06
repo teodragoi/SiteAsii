@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./membrii.component.scss']
 })
 export class MembriiComponent implements OnInit {
-
+  membri =  ['First', 'Second', 'Third', '1' , '2', '','First', 'Second', 'Third', '1' , '2', '','First', 'Second', 'Third', '1'];
   constructor() { }
 
   ngOnInit(): void {
