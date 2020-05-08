@@ -1,0 +1,79 @@
+.departments-container {
+    margin: auto;
+    width: 100%;
+    height: 420px;
+    max-height: 420px;
+    padding: 0;
+    // background-color: lawngreen;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 210px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.column {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+}
+
+.values-card {
+    margin: 0;
+    max-width: 250px;
+    height: 85%;
+    position: relative;
+    overflow: auto;
+    text-align: center;
+    filter: grayscale(100%);
+}
+
+.values-card:hover {
+    margin: 0;
+    max-width: 250px;
+    height: 85%;
+    position: relative;
+    overflow: auto;
+    text-align: center;
+    filter: grayscale(0%);
+}
+
+.values-card img {
+    width: 60%;
+    margin: 0;
+}
+
+div mat-card {
+    margin: 0 !important;
+    transition: none !important;
+    box-shadow: none !important;
+}
+
+mat-card-title {
+    font-size: 14px;
+}
+
+.ev-image {
+    padding: 15px;
+}
+
+.prm-image {
+    padding: 10px;
+}
+
+.pro-image {
+    padding: 15px
+}
+
+.ri-image {
+    padding: 5px;
+}
