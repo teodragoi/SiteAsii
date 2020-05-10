@@ -1,0 +1,25 @@
+
+.container-members-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .members-container{
+        width:90%;
+        height:600px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: scroll;
+        flex-wrap: wrap;
+        background-color:rgba($color: #ececec, $alpha: 1.0);
+        
+        .member-card{
+    
+            margin-bottom: 20px;
+            margin-top: 20px;
+    
+        }
+    }
+    
+}
