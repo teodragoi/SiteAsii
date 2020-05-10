@@ -11,6 +11,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MemberTileComponent } from './member-tile/member-tile.component';
 import { MembriiComponent } from './membrii/membrii.component';
 import { DepartmentsComponent } from './departments/departments.component';
+import { MyPopupComponent } from './my-popup/my-popup.component';
+import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,8 @@ import { DepartmentsComponent } from './departments/departments.component';
     MembriiComponent,
     MemberTileComponent,
     DepartmentsComponent
+    MyPopupComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
