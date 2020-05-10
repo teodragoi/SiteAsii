@@ -10,7 +10,6 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MemberTileComponent } from './member-tile/member-tile.component';
 import { MembriiComponent } from './membrii/membrii.component';
-import { MatDialogModule } from '@angular/material/dialog';
 import { DepartmentsComponent } from './departments/departments.component';
 import { MyPopupComponent } from './my-popup/my-popup.component';
 import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
@@ -24,7 +23,7 @@ import { DropdownComponent } from './dropdown/dropdown.component';
     HeaderComponent,
     MembriiComponent,
     MemberTileComponent,
-    DepartmentsComponent,
+    DepartmentsComponent
     MyPopupComponent,
     DropdownComponent
   ],
@@ -33,8 +32,7 @@ import { DropdownComponent } from './dropdown/dropdown.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatButtonModule,
-    MatDialogModule
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
