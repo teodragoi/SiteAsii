@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { About } from '../../assets/text-resources';
 
 @Component({
   selector: 'asii-about',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
+
+  AboutResource = About;
 
   constructor() { }
 

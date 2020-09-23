@@ -1,72 +1,99 @@
-<div id="about" class="about-container">
+<div class="about-container">
   <h2>Despre noi...</h2>
-  <p>Asociația Studenților Informaticieni Ieșeni este o organizație non-guvernamentală, 
-      apolitică și non-profit, ce are ca scop apărarea demnității, drepturilor și intereselor
-       socio-profesionale ale studenților din cadrul Facultății de Informatică din Iași. 
-       ASII a fost înființată pe data de 12 martie 1990, iar din 10 septembrie a devenit persoană 
-       juridică de sine stătătoare.</p>
- <p>ASII este format dintr-un grup de peste 100 de studenți cărora le place să se implice. 
-     Membrii ASII știu să combine prietenia, distracția și munca, astfel încât perioada facultății 
-     ajunge să reprezinte cei mai frumoși ani din viața acestora! În ASII întâlnești prieteni de încredere,
-      cu care vei învăța să lucrezi la proiecte interesante, cu renume, sau chiar la idei propuse de tine, 
-      descoperind astfel că ești bun la lucruri pe care nici măcar nu știai că le poți face. În ASII învățăm 
-      să ne dezvoltam din toate punctele de vedere.</p>
- <p>Fiecare membru ASII susține şi promovează aceleaşi valori:</p>
- <div class="row">
+  <p>{{ AboutResource.asiiGeneral }}</p>
+  <p>{{ AboutResource.asiiAboutMembers }}</p>
+  <p>Fiecare membru ASII susține şi promovează aceleaşi valori:</p>
+  <div class="values-container">
+    <div class="row">
       <div class="column">
         <mat-card class="values-card">
-          <img mat-card-image src="assets/assets_about/feature-1.png" alt="Implicare">
+          <img
+            mat-card-image
+            src="assets/assets_about/feature-1.png"
+            alt="Implicare"
+          />
           <mat-card-title>Implicare</mat-card-title>
           <mat-card-content>
             <span>Căutăm sa găsim soluţii la problemele din jurul nostru</span>
           </mat-card-content>
         </mat-card>
-    </div>
-    <div class="column">
+      </div>
+      <div class="column">
         <mat-card class="values-card">
-          <img mat-card-image src="assets/assets_about/feature-2.png" alt="Perfectionare">
+          <img
+            mat-card-image
+            src="assets/assets_about/feature-2.png"
+            alt="Perfectionare"
+          />
           <mat-card-title>Perfectionare continua</mat-card-title>
           <mat-card-content>
-            <span>Vrem sa învățăm în permanență lucruri noi în cadrul training-urilor, 
-              proiectelor și numeroaselor activități din cadrul asociației</span>
+            <span
+              >Vrem sa învățăm în permanență lucruri noi în cadrul
+              training-urilor, proiectelor și numeroaselor activități din cadrul
+              asociației</span
+            >
           </mat-card-content>
         </mat-card>
+      </div>
     </div>
- </div>
- <div class="row">
-  <div class="column">
-      <mat-card class="values-card">
-        <img mat-card-image src="assets/assets_about/feature-3.png" alt="Dezvoltare">
-        <mat-card-title>Dezvoltare personala</mat-card-title>
-        <mat-card-content>
-          <span>Găsim moduri de a duce la bun sfarşit proiectele noastre</span>
-        </mat-card-content>
-      </mat-card>
-  </div>
-    <div class="column">
+    <div class="row">
+      <div class="column">
         <mat-card class="values-card">
-          <img mat-card-image src="assets/assets_about/feature-4.png" alt="Prietenie">
+          <img
+            mat-card-image
+            src="assets/assets_about/feature-3.png"
+            alt="Dezvoltare"
+          />
+          <mat-card-title>Dezvoltare personala</mat-card-title>
+          <mat-card-content>
+            <span
+              >Găsim moduri de a duce la bun sfarşit proiectele noastre</span
+            >
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="column">
+        <mat-card class="values-card">
+          <img
+            mat-card-image
+            src="assets/assets_about/feature-4.png"
+            alt="Prietenie"
+          />
           <mat-card-title>Prietenie</mat-card-title>
           <mat-card-content>
-            <span>Ne împrietenim, ne jucăm, ne distrăm și facem treaba ca la carte!</span>
+            <span
+              >Ne împrietenim, ne jucăm, ne distrăm și facem treaba ca la
+              carte!</span
+            >
           </mat-card-content>
         </mat-card>
+      </div>
     </div>
-</div>
-<div class="row">
-  <div class="column">
-    <mat-card class="values-card">
-      <img mat-card-image src="assets/assets_about/feature-5.png" alt="Organizare">
-      <mat-card-title>Organizare</mat-card-title>
-      <mat-card-content>
-        <span>Vrem să dobândim aptitudini noi și să le oferim mai departe membrilor noi</span>
-      </mat-card-content>
-    </mat-card>
+    <div class="row">
+      <div class="column">
+        <mat-card class="values-card">
+          <img
+            mat-card-image
+            src="assets/assets_about/feature-5.png"
+            alt="Organizare"
+          />
+          <mat-card-title>Organizare</mat-card-title>
+          <mat-card-content>
+            <span
+              >Vrem să dobândim aptitudini noi și să le oferim mai departe
+              membrilor noi</span
+            >
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
   </div>
 </div>
 <div class="question">
   <h3>Eşti curios din cine este alcătuită A.S.I.I. ?</h3>
   <button mat-stroked-button class="view-button">Vezi membrii ASII</button>
-  <p>Regulamentul ASII poate fi gasit <a href='https://asii.ro/roiASII.pdf' target="_blank">aici.</a></p>
-</div>
+  <p>
+    Regulamentul ASII poate fi gasit
+    <a href="https://asii.ro/roiASII.pdf" target="_blank">aici.</a>
+  </p>
 </div>

@@ -1,81 +1,80 @@
 .about-container {
-    background: white;
-    margin: auto;
-    padding: 30px;
-    width: 80%;
+  background: white;
 }
 
 .about-container p {
-    font-size: 16px;
-    text-align: justify;
+  font-size: 16px;
+  text-align: justify;
 }
 
-.row {
-    align-items: center;
+.values-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 16px 0;
     width: 100%;
-}
+  }
 
-.column {
+  .column {
     display: inline-block;
     padding-left: 16px;
     padding-right: 16px;
     width: 40%;
-}
+  }
 
-.values-card {
-    margin: auto 35px;
-    max-width: 350px;
+  .values-card {
     text-align: center;
     position: relative;
-    overflow: auto;
-}
+  }
 
-.values-card img {
+  .values-card img {
     width: initial;
-}
+  }
 
-div mat-card {
+  div mat-card {
     transition: none !important;
     box-shadow: none !important;
+  }
 }
 
 .question {
-    text-align: center;
+  text-align: center;
 }
 
 .question p {
-    text-align: center;
+  text-align: center;
 }
 
 .question a {
-    color: #FF695E;
-    font-weight: 500;
-    text-decoration: none;
+  color: #ff695e;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .view-button {
-    background-color: #fff;
-    border: 2px solid #FF695E;
-    color: #FF695E;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 8px;
-    padding: 12px 25px;
-    text-align: center;
+  background-color: #fff;
+  border: 2px solid #ff695e;
+  color: #ff695e;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  padding: 12px 25px;
+  text-align: center;
 }
 
 .view-button:hover {
-    background-color: #FF695E;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 8px;
-    padding: 12px 25px;
-    text-align: center;
+  background-color: #ff695e;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  padding: 12px 25px;
+  text-align: center;
 }
