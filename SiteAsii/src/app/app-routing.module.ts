@@ -1,6 +1,5 @@
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MembriiComponent } from 'src/app/membrii/membrii.component';
 const routes: Routes = [
 ];
 
