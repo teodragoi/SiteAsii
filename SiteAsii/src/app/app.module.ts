@@ -11,9 +11,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
-import { MemberTileComponent } from './member-tile/member-tile.component';
+import { MemberTileComponent } from './membrii/member-tile/member-tile.component';
 import { MembriiComponent } from './membrii/membrii.component';
-import { DropdownComponent } from './dropdown/dropdown.component';
+import { DepartmentDropdownComponent } from './department-dropdown/department-dropdown.component';
 import { DepartmentPopupComponent, DepartmentsComponent } from './departments-section';
 
 @NgModule({
@@ -25,7 +25,7 @@ import { DepartmentPopupComponent, DepartmentsComponent } from './departments-se
     MembriiComponent,
     MemberTileComponent,
     DepartmentsComponent,
-    DropdownComponent,
+    DepartmentDropdownComponent,
     DepartmentPopupComponent
   ],
   imports: [

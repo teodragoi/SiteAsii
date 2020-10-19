@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'asii-dropdown',
-  templateUrl: './dropdown.component.html',
-  styleUrls: ['./dropdown.component.scss'],
+  selector: 'asii-department-dropdown',
+  templateUrl: './department-dropdown.component.html',
+  styleUrls: ['./department-dropdown.component.scss'],
 })
-export class DropdownComponent {
+export class DepartmentDropdownComponent {
   departmentsList: { display; value }[] = [
     {
       display: 'Staff',
