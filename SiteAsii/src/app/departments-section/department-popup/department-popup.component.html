@@ -1,0 +1,18 @@
+<h1>{{ departmentData.title }}</h1>
+<div class="line"></div>
+<h3 class="mission-title">Misiunea noastra:</h3>
+<div class="mission-container">
+  {{ departmentData.mission }}
+</div>
+<h3 class="experience-title">Ne imbogatim experienta in arii precum:</h3>
+<span class="experience-container">
+  <ul *ngFor="let experience of departmentData.experience">
+    <li>{{ experience }}</li>
+  </ul>
+</span>
+<h3 class="values-title">Valorile noastre:</h3>
+<span class="values-container">
+  <ul *ngFor="let value of departmentData.values">
+    <li>{{ value }}</li>
+  </ul>
+</span>
