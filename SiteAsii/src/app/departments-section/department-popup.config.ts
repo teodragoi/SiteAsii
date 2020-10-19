@@ -1,6 +1,5 @@
-export const DEPARTMENT_POPUP_CONFIG: { height; width; data } = {
-  height: '400px',
-  width: '600px',
+export const DEPARTMENT_POPUP_CONFIG: { width; data } = {
+  width: '1000px',
   data: {
     department: '',
   },

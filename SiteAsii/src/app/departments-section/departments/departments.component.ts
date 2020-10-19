@@ -5,7 +5,7 @@ import { DepartmentPopupComponent } from '../department-popup/department-popup.c
 import { Departments } from '../departments.enum';
 
 @Component({
-  selector: 'app-departments',
+  selector: 'asii-departments',
   templateUrl: './departments.component.html',
   styleUrls: ['./departments.component.scss']
 })

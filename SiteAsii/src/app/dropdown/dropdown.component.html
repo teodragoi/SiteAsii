@@ -1,11 +1,12 @@
-<p>Membri Asii &nbsp;&nbsp;&nbsp;<select (change)="selectChangeHandler($event)">
-  <option disabled selected value style="display:none"></option>
-  <option value="Staff">Staff</option>
-  <option value="Re">Relatii Externe</option>
-  <option value="Ri">Relatii Interne</option>
-  <option value="PR&Media">Pr&Media</option>
-  <option value="It">IT</option>
-  <option value="Pro">Proiecte</option>
-  <option value="Evaluari">Evaluari</option>
-</select>
-</p>
+<span>Membrii ASII</span>
+<mat-form-field appearance="fill">
+  <mat-label>Departament</mat-label>
+  <mat-select (selectionChange)="departmentSelected($event)">
+    <mat-option
+      *ngFor="let department of departmentsList"
+      [value]="department.value"
+    >
+      {{ department.display }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

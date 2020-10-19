@@ -1,19 +1,43 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-dropdown',
+  selector: 'asii-dropdown',
   templateUrl: './dropdown.component.html',
-  styleUrls: ['./dropdown.component.scss']
+  styleUrls: ['./dropdown.component.scss'],
 })
-export class DropdownComponent implements OnInit {
+export class DropdownComponent {
+  departmentsList: { display; value }[] = [
+    {
+      display: 'Staff',
+      value: 'staff',
+    },
+    {
+      display: 'Relatii Externe',
+      value: 're',
+    },
+    {
+      display: 'Relatii Interne',
+      value: 'ri',
+    },
+    {
+      display: 'PR&Media',
+      value: 'prm',
+    },
+    {
+      display: 'IT',
+      value: 'it',
+    },
+    {
+      display: 'Proiecte',
+      value: 'pro',
+    },
+    {
+      display: 'Evaluari',
+      value: 'evaluari',
+    },
+  ];
 
-  constructor() { }
-  selectedDepartment = '';
-
-  selectChangeHandler(event: any) {
-    this.selectedDepartment = event.target.value;
+  departmentSelected(event: any) {
+    console.log(event.value);
   }
-  ngOnInit(): void {
-  }
-
 }

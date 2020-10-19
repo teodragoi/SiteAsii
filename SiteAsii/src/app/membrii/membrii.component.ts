@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-membrii',
+  selector: 'asii-membrii',
   templateUrl: './membrii.component.html',
   styleUrls: ['./membrii.component.scss']
 })
