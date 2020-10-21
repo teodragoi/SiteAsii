@@ -15,6 +15,8 @@ import { MemberTileComponent } from './membrii/member-tile/member-tile.component
 import { MembriiComponent } from './membrii/membrii.component';
 import { DepartmentDropdownComponent } from './department-dropdown/department-dropdown.component';
 import { DepartmentPopupComponent, DepartmentsComponent } from './departments-section';
+import { ProjectsComponent } from './projects/projects.component';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { DepartmentPopupComponent, DepartmentsComponent } from './departments-se
     MemberTileComponent,
     DepartmentsComponent,
     DepartmentDropdownComponent,
-    DepartmentPopupComponent
+    DepartmentPopupComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import { DepartmentPopupComponent, DepartmentsComponent } from './departments-se
     MatButtonModule,
     MatDialogModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
