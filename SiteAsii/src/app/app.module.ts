@@ -27,9 +27,14 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     MembriiComponent,
     MemberTileComponent,
     DepartmentsComponent,
+<<<<<<< HEAD
     DepartmentDropdownComponent,
     DepartmentPopupComponent,
     ProjectsComponent
+=======
+    DropdownComponent,
+    DepartmentPopupComponent
+>>>>>>> 49c38befae1ab032440068574f527256eb3c8cb5
   ],
   imports: [
     BrowserModule,
@@ -39,8 +44,12 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     MatButtonModule,
     MatDialogModule,
     MatFormFieldModule,
+<<<<<<< HEAD
     MatSelectModule,
     IvyCarouselModule
+=======
+    MatSelectModule
+>>>>>>> 49c38befae1ab032440068574f527256eb3c8cb5
   ],
   providers: [],
   bootstrap: [AppComponent]
