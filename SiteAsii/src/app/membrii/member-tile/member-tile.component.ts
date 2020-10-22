@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { AsiiMember } from '../member.model';
 
 @Component({
   selector: 'asii-member-tile',
   templateUrl: './member-tile.component.html',
   styleUrls: ['./member-tile.component.scss']
 })
-export class MemberTileComponent implements OnInit {
+export class MemberTileComponent {
+  @Input() member: AsiiMember;
 
-  constructor() { }
-
-  ngOnInit(): void {
+  goToLink(link: string): void {
+    window.open(link, '_blank');
   }
-
 }

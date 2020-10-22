@@ -1,5 +1,5 @@
   <mat-card class="members-container">
-    <mat-card class="member-card" *ngFor="let membru of membri">
-      <asii-member-tile> </asii-member-tile>
+    <mat-card class="member-card" *ngFor="let member of membersArray">
+      <asii-member-tile [member]="member"> </asii-member-tile>
     </mat-card>
   </mat-card>

@@ -11,8 +11,4 @@ export class ProjectsComponent {
     { path: '../../assets/projects/BB2.png' },
     { path: '../../assets/projects/CraciunInima2.png' }
   ];
-
-  constructor() {
-    console.log(this.images);
-  }
 }
