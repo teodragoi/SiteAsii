@@ -11,10 +11,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
-import { MemberTileComponent } from './member-tile/member-tile.component';
+import { MemberTileComponent } from './membrii/member-tile/member-tile.component';
 import { MembriiComponent } from './membrii/membrii.component';
-import { DropdownComponent } from './dropdown/dropdown.component';
+import { DepartmentDropdownComponent } from './department-dropdown/department-dropdown.component';
 import { DepartmentPopupComponent, DepartmentsComponent } from './departments-section';
+import { ProjectsComponent } from './projects/projects.component';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -25,8 +27,14 @@ import { DepartmentPopupComponent, DepartmentsComponent } from './departments-se
     MembriiComponent,
     MemberTileComponent,
     DepartmentsComponent,
+<<<<<<< HEAD
+    DepartmentDropdownComponent,
+    DepartmentPopupComponent,
+    ProjectsComponent
+=======
     DropdownComponent,
     DepartmentPopupComponent
+>>>>>>> 49c38befae1ab032440068574f527256eb3c8cb5
   ],
   imports: [
     BrowserModule,
@@ -36,7 +44,12 @@ import { DepartmentPopupComponent, DepartmentsComponent } from './departments-se
     MatButtonModule,
     MatDialogModule,
     MatFormFieldModule,
+<<<<<<< HEAD
+    MatSelectModule,
+    IvyCarouselModule
+=======
     MatSelectModule
+>>>>>>> 49c38befae1ab032440068574f527256eb3c8cb5
   ],
   providers: [],
   bootstrap: [AppComponent]

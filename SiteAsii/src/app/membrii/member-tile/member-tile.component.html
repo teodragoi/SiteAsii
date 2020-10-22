@@ -1,0 +1,15 @@
+<mat-card class="member-card">
+    <mat-card-header>
+        <div mat-card-avatar class="member-header-image"></div>
+    </mat-card-header>
+    <img mat-card-image [src]="member.photo" alt="photo">
+    <mat-card-content>
+        <h2 class="name-member">{{ member.name }}</h2>
+        <h3 class="title-member">{{ member.title }}</h3>
+    </mat-card-content>
+    <mat-card-actions class ="social-media-container">
+        <a (click)="goToLink(member.facebookLink)"><button mat-button class="btn facebook-btn"></button></a>
+        <a (click)="goToLink(member.instagramLink)"><button mat-button class="btn instagram-btn"></button></a>
+        <a (click)="goToLink(member.linkedInLink)"><button mat-button class="btn linkedin-btn"></button></a>
+    </mat-card-actions>
+</mat-card>
