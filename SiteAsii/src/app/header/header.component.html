@@ -1,9 +1,9 @@
-<div class="header-bar">
-  <img alt="ASII Logo" src="/assets/images/logo.png" />
+<div class="header-bar scrolled">
+  <img (click)="redirectToLink('home')" alt="ASII Logo" src="../../assets/images/logo.jpg" />
   <div class="link-container">
     <a (click)="redirectToLink('about')">Despre</a>
     <a (click)="redirectToLink('departments')">Departamente</a>
-    <a href="#projects">Proiecte</a>
+    <a (click)="redirectToLink('projects')">Proiecte</a>
     <a href="#headquarters">Sediu</a>
     <a href="#gallery">Galerie</a>
   </div>
